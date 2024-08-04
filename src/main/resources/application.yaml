@@ -20,6 +20,6 @@ spring:
     show-sql: true
 
 rapidapi:
-  key: "5d978e8b0emshb3dd22f5688c4c0p1a4945jsnb1fd08944758"
+  key: тут key от Rapid
   baseUrl: "https://google-translator9.p.rapidapi.com/v2"
   languageUrl: "https://google-translator9.p.rapidapi.com/v2/languages"
