@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5444/translation'
+    username: root
+    password: root
+    driver-class-name: 'org.postgresql.Driver'
+
+  flyway:
+    enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: true
+
+rapidapi:
+  key: "5d978e8b0emshb3dd22f5688c4c0p1a4945jsnb1fd08944758"
+  baseUrl: "https://google-translator9.p.rapidapi.com/v2"
+  languageUrl: "https://google-translator9.p.rapidapi.com/v2/languages"
