@@ -50,6 +50,8 @@ Hello world, this is my first program
 
 Для работы API в файле [application.yaml](https://github.com/ak-karimzai/TranslationService/src/main/resources) необходимо заменить ключ (key), чтобы можно было отправлять запросы для получения перевода текста.
 
+Для сборки проекта необходимо на машине иметь ```менеджер пакетов maven``` и также ```OpenJdk 17 версия``` проект собирается коммандой ```mvn package``` далее собранный проект можно запустить с помощью Docker Compose коммандой ```docker compose up```.
+
 ![img.png](docs/img.png)
 
 Данные запроса хранятся в PostgreSQL с помощью API JDBC.
